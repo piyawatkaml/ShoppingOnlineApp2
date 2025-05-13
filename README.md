@@ -12,3 +12,19 @@
    ```bash
    รัน npm start
    ```
+   
+3. path ของแต่ละหน้า
+
+   ```bash
+   - หน้าแรก (Home Screen):
+     http://localhost:8081/HomeScreen
+   
+   - หน้ารายละเอียดสินค้า (Product Detail Screen) (ตัวอย่าง Product Id: 2):
+     http://localhost:8081/product/2
+   
+   - หน้ารถเข็น (Cart Screen):
+     http://localhost:8081/cart
+   
+   - หน้ารายการที่ชอบ (Favorite Screen):
+     http://localhost:8081/favorite
+   ```
