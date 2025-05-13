@@ -109,7 +109,7 @@ export default function ProductDetailScreen() {
       flexDirection: 'row',
       justifyContent: 'flex-end',
       paddingHorizontal: 16,
-      paddingTop: 48,
+      paddingTop: 28,
       paddingBottom: 8,
       backgroundColor: '#fff',
       elevation: 2,
