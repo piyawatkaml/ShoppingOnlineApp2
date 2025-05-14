@@ -1,12 +1,17 @@
 import { DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { Stack } from 'expo-router';
+import { Redirect, Stack, usePathname } from 'expo-router';
 import 'react-native-reanimated';
 import { Provider } from 'react-redux';
 import Header from '../components/Header';
 import { store } from './../redux/store';
 
 export default function RootLayout() {
+  const pathname = usePathname();
 
+  if (pathname === '/') {
+    return <Redirect href="/HomeScreen" />;
+  }
+  
   return (
     <Provider store={store}>
       <ThemeProvider value={DefaultTheme}>
