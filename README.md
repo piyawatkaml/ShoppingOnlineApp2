@@ -1,19 +1,25 @@
 ## Get started
-
-1. Install dependencies
+1. install expo-cli
+   
+   ```bash
+   ใช้ node version 22.11.0
+   รัน npm install -g expo-cli
+   ```
+   
+2. Install dependencies
 
    ```bash
    ใช้ node version 22.11.0 install package
    รัน npm install
    ```
 
-2. Start the app
+3. Start the app
 
    ```bash
    รัน npm start
    ```
    
-3. path ของแต่ละหน้า
+4. path ของแต่ละหน้า
 
    ```bash
    - หน้าแรก (Home Screen):
