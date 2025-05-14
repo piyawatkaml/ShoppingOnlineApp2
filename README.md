@@ -16,7 +16,14 @@
 3. Start the app
 
    ```bash
-   รัน npm start
+   - เปิด Web:
+     รัน npm start หรือ npx expo start --web
+
+   - เปิด Android Emulator:
+     รัน npx expo start --android
+
+   - เปิด iOS Simulator:
+     รัน npx expo start --ios
    ```
    
 4. path ของแต่ละหน้า
